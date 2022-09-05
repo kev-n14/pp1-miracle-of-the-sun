@@ -4,6 +4,9 @@
     padding: 0;
     border: none;
 }
+*:focus {
+    outline: 0;
+  }
 body {
 
     font-family: Georgia,Times,"Times New Roman",serif;/*Lato, sans-serif;*/
@@ -14,39 +17,48 @@ header{
 
     width:100%;
     height:90px;
+
+	background-color: #fafafa;
+	position: fixed;
+	z-index: 10;
 }
+
+
+
+
+
 nav{
     height: 100%;
     display: flex;
     
 }
 .nav-bar{
-   flex: 1;
-   padding: 1em;
-   
-
-}
-#title{
-    padding-top:32px;
-    text-decoration: none;
-    flex: 30%;
-}
-#logo{
-    flex: 30%;
-    padding: top 32px;
-    height: 70px;
-    width:100px;
-   
-
-}
-img {
-    max-width: 100%;
-    max-height: 100%;
-   }
-#menu{
-    flex: 30%;
-    padding: top 32px;
-}  
+    flex: 1;
+   padding:10px;
+    
+ 
+ }
+ #title{
+     padding-top:32px;
+     text-decoration: none;
+     flex: 33.3%;
+ }
+ #logo{
+     flex: 33.3%;
+     padding:2px;
+     height: 90px;
+     width:100px;
+    
+ 
+ }
+ img {
+     max-width: 100%;
+     max-height: 100%;
+    }
+ #menu{
+     flex: 33.3%;
+    padding-top:25px;
+ } 
    
 #menu li{
     list-style: none;
@@ -54,34 +66,46 @@ img {
     padding: 10px;
 }
 nav a{
-   
+    font-family: 'Times New Roman', Times, serif;
+    color: #3a3a3a;
     text-decoration: none;
 
 }
-  h1, h2 {
+nav a:hover{
+    color: #27bcda;
+  }
+  h1, h2,h3 {
 
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    font-size: 2em;
 
 }
 #banner{
-    height: 750px;
-    width: 100%;
+    height:62vh;
+    width: 100vw;
     overflow: hidden;
     position: relative;
+    z-index: 1;
+    
 
 }
 #banner-image{
    
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 85vh;
     background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
     
 
 }
-#main-content h2{
+#main-content{
+  position: relative;
+    z-index: 1;
+ background-color: #fafafa; 
+}
+#main-content h2 {
 
     text-align: center;
     padding-top:20px;
@@ -97,6 +121,9 @@ nav a{
 
     text-align: center;
     padding : 20px;
+   position: relative;
+    z-index: 1;
+ background-color: #fafafa; 
     
 }
 
@@ -110,12 +137,16 @@ nav a{
     width: 100%;
     overflow: hidden;
     display:flex;
+    clear: both;
+    position: relative;
+    z-index: 1;
+ background-color: #fafafa; 
 }
 #eye-witness div {
     color: #fafafa;
     background-color: rgba(0,0, 0, .6);
     width: 33.3%;
-    height: 300%;
+    height: 100%;
     flex:1;
     float: left;
     padding: 30px 0 0 10;
@@ -125,11 +156,148 @@ nav a{
 }
 .eye-accounts{
     text-align: left;
-    padding:50px 50px 10px 50px;
-    font-size: 20px;
+    padding:40px 50px 10px 30px;
+    font-size: 18px;
+    line-height: 1.5;
 
 }
 .quote-by{
-
+    padding: 10px 10px;
     float:right;
 }
+
+#video{
+    height: 450px;
+    width:100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    background-color: #fafafa; 
+
+
+}
+#clip{
+    margin: auto 0;
+    text-align: center;
+    flex: 1;
+    
+}
+#clip-text {
+    flex:1;
+    padding:40px;
+ margin-top:40px;
+
+}
+#clip-text h3{
+     text-align: center;
+     font-size: 1em;
+    
+}
+#clip-text p{
+
+    padding: 20px 40px;
+}
+footer{
+	background-color: #262626;
+	bottom: 0;
+	display: flex;
+	height: auto;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+    left: 0;
+    right: 0;
+    color: #fff;
+} 
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:100vw;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+.footer-menu{
+    margin-bottom: 20px;
+  }
+  .footer-menu ul{
+    display: flex;
+  }
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  .footer-menu ul li a{
+    color: #cfd2d6;
+    border: 1.3px solid white;
+    padding: 6px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  .footer-menu ul li a:hover{
+    color: #27bcda;
+  }
+  .footer-bottom{
+    background: #000;
+    width: 98%;
+    padding: 20px;
+    text-align: center;
+}
+.footer-bottom p{
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}    
