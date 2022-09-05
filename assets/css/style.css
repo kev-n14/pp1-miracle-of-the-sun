@@ -303,3 +303,41 @@ footer{
     opacity: .4;
     font-weight: 200;
 }    
+
+/* Gallery Page*/
+
+.gallery {
+    
+	display: flex;
+	padding-top: 60px;
+	transition: .3s;
+    justify-content: center;
+	
+}
+div{
+ padding:2px;
+}
+#image1{
+
+    width :400px;
+    height:600px;
+}
+#image2{
+    width :400px;
+    height:300px;
+ 
+}
+.gallery__caption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		padding: 25px 15px 15px;
+		width: 100%;
+		font-family: 'Raleway', sans-serif;
+		font-size: 16px;
+		color: black;
+		opacity: 0;
+		background: linear-gradient(0deg, rgba(0, 0, 0, .5) 0%, rgba(255, 255 ,255 , 0) 100%);
+		transition: .3s;
+	}
+
