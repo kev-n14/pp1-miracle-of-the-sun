@@ -6,7 +6,7 @@
 }
 body {
 
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,"Times New Roman",serif;/*Lato, sans-serif;*/
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -27,13 +27,13 @@ nav{
 
 }
 #title{
-
+    padding-top:32px;
     text-decoration: none;
     flex: 30%;
 }
 #logo{
     flex: 30%;
-    
+    padding: top 32px;
     height: 70px;
     width:100px;
    
@@ -45,6 +45,7 @@ img {
    }
 #menu{
     flex: 30%;
+    padding: top 32px;
 }  
    
 #menu li{
@@ -66,16 +67,69 @@ nav a{
 
 }
 #banner{
-    height: 600px;
+    height: 750px;
     width: 100%;
     overflow: hidden;
-    
     position: relative;
 
 }
 #banner-image{
-    height: 600px;
+   
     width: 100%;
+    height: 100%;
     background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
+    
 
+}
+#main-content h2{
+
+    text-align: center;
+    padding-top:20px;
+}
+
+
+#main-content p{
+    font-size: 18px;
+    padding:20px 100px;
+
+}
+#eye-heading h2{
+
+    text-align: center;
+    padding : 20px;
+    
+}
+
+#eye-witness{
+
+    background-image: url('../images/People_looking_miracle_sun.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    display:flex;
+}
+#eye-witness div {
+    color: #fafafa;
+    background-color: rgba(0,0, 0, .6);
+    width: 33.3%;
+    height: 300%;
+    flex:1;
+    float: left;
+    padding: 30px 0 0 10;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+.eye-accounts{
+    text-align: left;
+    padding:50px 50px 10px 50px;
+    font-size: 20px;
+
+}
+.quote-by{
+
+    float:right;
 }
