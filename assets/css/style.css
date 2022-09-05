@@ -39,7 +39,7 @@ nav{
  
  }
  #title{
-     padding-top:32px;
+     padding-top:25px;
      text-decoration: none;
      flex: 33.3%;
  }
@@ -56,8 +56,8 @@ nav{
      max-height: 100%;
     }
  #menu{
-     flex: 33.3%;
-    padding-top:25px;
+    flex: 33.3%;
+    padding:25px 20px;
  } 
    
 #menu li{
@@ -67,6 +67,7 @@ nav{
 }
 nav a{
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     color: #3a3a3a;
     text-decoration: none;
 
@@ -74,7 +75,8 @@ nav a{
 nav a:hover{
     color: #27bcda;
   }
-  h1, h2,h3 {
+
+h1, h2,h3 {
 
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -189,13 +191,13 @@ nav a:hover{
 
 }
 #clip-text h3{
-     text-align: center;
-     font-size: 1em;
-    
+    text-align: center;
+    font-size: 1.3em;
+   
 }
 #clip-text p{
-
-    padding: 20px 40px;
+  line-height:1.5em;
+   padding: 20px 40px;
 }
 footer{
 	background-color: #262626;
