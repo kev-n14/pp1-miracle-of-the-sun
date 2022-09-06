@@ -8,3 +8,6 @@ https://aleteia.org/2021/10/13/a-scientist-describes-the-miracle-of-the-sun-at-f
 
 images
 https://unsplash.com/photos/cKtxN0UICyk
+
+favicon
+https://www.flaticon.com/free-icons/catholic/2
