@@ -94,8 +94,8 @@ h1, h2,h3 {
 }
 #banner-image{
    
-    width: 100vw;
-    height: 85vh;
+    max-width: 100vw;
+    min-height: 85vh;
     background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
     
     animation-name: banner-zoom;
@@ -112,6 +112,7 @@ h1, h2,h3 {
         
     }
 }
+
 /* Main text area */
 #main-content{
   position: relative;
@@ -215,23 +216,19 @@ h1, h2,h3 {
 }
 
  /* Rosary sign up section */
-#rosary-sign{
+ #rosary-sign{
     position: relative;
-      width: 50vw;
-      height: 40vh;
+      max-width: 40vw;
+      min-height: 50vh;
       padding:20px;
-      margin:auto;
+      margin:0 auto;
   }
-  #rosary-img{
-      width:auto;
-      height:auto;
-    
-  }
+  
   
   #rosary-text{
     position:absolute;
-    width: 300px;
-    height: 390px;   
+    max-width: 300px;
+    max-height: 390px;   
     top: 40px;
     left: 40px;
     padding-top: 10px;
@@ -254,13 +251,14 @@ footer{
 	background-color: #262626;
 	bottom: 0;
 	display: flex;
-	height: auto;
+	max-height: auto;
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 	z-index: 1;
     left: 0;
     right: 0;
     color: #fff;
+    padding-top:20px;
 } 
 .footer-content{
     display: flex;
@@ -371,12 +369,12 @@ footer{
 }
 
 .image1{
-    width :400px;
-    height:600px;
+    max-width :300px;
+    max-height:400px;
 }
 .image2{
-    width :400px;
-    height:300px;
+    max-width :300px;
+    max-height:300px;
  
 }
 .gallery__caption {
@@ -384,13 +382,18 @@ footer{
     bottom: 30px;
     left: 0;
     padding:2px;
-    width: auto;
+    max-width:300px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: white ;
     background-color: black;
     opacity: 0.5;
     
+}
+.gallery__caption_vertical{
+    max-width:265px;
+
+ 
 }
 .gallery__thumb { 
     top:-50px; 
@@ -466,3 +469,42 @@ input[type=text]:focus {
         opacity: 1;
         color:#44bae8;
       }
+      /* 
+      @media screen and (max-width: 1200px)
+      @media screen and (max-width:950px) 
+      @media screen and (max-width: 800px)
+      */
+
+      @media screen and (max-width: 1200px){
+
+        body{
+         margin:0 auto;
+        }
+        #rosary-sign{
+          display:flex;
+           max-width: 40vw;
+           min-height: 30vh;
+          
+       }
+        
+        #rosary-text{
+       
+         width:20vw;
+         min-height: 250px;
+          
+        }
+         #rosary-text h4{
+   font-size: 18px;
+   padding:8px;
+ }
+ #rosary-text p{
+     font-size: 16px;
+   padding:12px;
+ }
+ 
+       }
+       @media screen and (max-width:950px) {
+
+
+        
+       }
