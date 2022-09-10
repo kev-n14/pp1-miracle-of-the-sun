@@ -54,32 +54,35 @@ nav{
     padding:25px 20px;
  } 
    
-#menu li{
-    list-style: none;
-    float:left;
-    padding: 10px;
+ #menu li{
+  list-style: none;
+  float:left;
+  padding: 10px;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
 }
 nav  a, #rosary-text a{
-    
-    text-decoration: none;
+  
+  text-decoration: none;
 
 }
 nav  a{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: #3a3a3a;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  color: #3a3a3a;
 }
 nav a:hover , #rosary-text a:hover{
-    color: #27bcda;
-  }
+  color: #27bcda;
+}
 
 h1, h2,h3 {
 
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-    font-size: 2em;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #252525;
+  font-size: 2em;
 
 }
 /* Hero Image */
