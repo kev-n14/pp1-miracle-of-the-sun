@@ -1,632 +1,831 @@
 * {
 
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
+
 body {
 
-    font-family: Georgia,Times,"Times New Roman",serif;/*Lato, sans-serif;*/
-    font-weight: 300;
-    color: #3a3a3a;
-}
-/* Navigation Bar */
-header{
-
-    width:100%;
-    height:90px;
-
-	background-color: #fafafa;
-	position: fixed;
-	z-index: 10;
-}
-
-nav{
-    height: 100%;
-    display: flex;
-    
-}
-.nav-bar{
-    flex: 1;
-   padding:10px;
-    
- 
- }
- #title{
-     padding-top:25px;
-     text-decoration: none;
-     flex: 33.3%;
- }
- #logo{
-     flex: 33.3%;
-     padding:2px 46px;
-     height: 90px;
-     width:100px;
-    
- 
- }
- img {
-     max-width: 100%;
-     max-height: 100%;
-    }
- #menu{
-    flex: 33.3%;
-    padding:25px 20px;
- } 
-   
- #menu li{
-  list-style: none;
-  float:left;
-  padding: 10px;
-  font-family: Oswald, sans-serif;
-  text-transform: uppercase;
-  font-size: 2em;
-}
-nav  a, #rosary-text a{
-  
-  text-decoration: none;
-
-}
-nav  a{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 18px;
+  font-family: 'Noto Serif Georgian', Georgia, Times, serif;
+  font-weight: 300;
   color: #3a3a3a;
 }
-nav a:hover , #rosary-text a:hover{
+
+/* Navigation Bar */
+header {
+
+  width: 100%;
+  height: 90px;
+  background-color: #fafafa;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+
+}
+
+.nav-bar {
+  flex: 1;
+  padding: 10px;
+}
+
+#title {
+  padding-top: 25px;
+  padding-left: 20px;
+  text-decoration: none;
+  flex: 33.3%;
+}
+
+#logo {
+  flex: 33.3%;
+  padding: 2px 46px;
+  height: 90px;
+  width: 100px;
+
+
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#menu {
+  flex: 33.3%;
+  padding: 15px 10px;
+}
+
+#menu li {
+  list-style: none;
+  float: left;
+  padding-top: 20px;
+  padding:20px 10px 10px 10px;
+  font-family: Oswald, sans-serif;
+  font-weight:bold;
+  text-transform: uppercase;
+  
+}
+
+nav a,
+#rosary-text a {
+
+  text-decoration: none;
+  
+  
+}
+
+nav a {
+  font-family: 'Noto Serif Georgian', Georgia, Times, serif;
+  font-size: 16px;
+  color: #3a3a3a;
+}
+
+nav a:hover,
+#rosary-text a:hover {
   color: #27bcda;
 }
 
-h1, h2,h3 {
+h1,
+h2,
+h3 {
 
-  font-family: Oswald, sans-serif;
+  /*   font-family: Oswald, sans-serif; */
+  font-family: 'Lora', serif;
+
   text-transform: uppercase;
   letter-spacing: 4px;
   color: #252525;
   font-size: 2em;
 
 }
+
 /* Hero Image */
-#banner{
-    height:62vh;
-    width: 100vw;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    
+#banner {
+  height: 62vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+
 
 }
-#banner-image{
-   
-    max-width: 100vw;
-    min-height: 85vh;
-    background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
-    
-    animation-name: banner-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+
+#banner-image {
+  max-width: 100vw;
+  min-height: 85vh;
+  background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
+  animation-name: banner-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 
 }
+
 @keyframes banner-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.2);
-        
-    }
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+
+  }
 }
 
 /* Main text area */
-#main-content{
+#main-content {
   position: relative;
-    z-index: 1;
- background-color: #fafafa; 
+  z-index: 1;
+  background-color: #fafafa;
 }
+
 #main-content h2 {
 
-    text-align: center;
-    padding-top:20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 
-#main-content p{
-    font-size: 18px;
-    padding:20px 100px;
+#main-content p {
+  font-size: 18px;
+  padding: 20px 100px;
 
 }
+em{
+  font-weight: bold;
+}
+
 /*Eye Witness section*/
-#eye-heading h2{
+#eye-heading h2 {
 
-    text-align: center;
-    padding : 20px;
-   position: relative;
-    z-index: 1;
- background-color: #fafafa; 
-    
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  background-color: #fafafa;
+
 }
 
-#eye-witness{
+#eye-witness {
 
-    background-image: url('../images/People_looking_miracle_sun.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height:400px;
-    width: 100%;
-    overflow: hidden;
-    display:flex;
-    clear: both;
-    position: relative;
-    z-index: 1;
- background-color: #fafafa; 
+  background-image: url('../images/People_looking_miracle_sun.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  clear: both;
+  position: relative;
+  z-index: 1;
+  background-color: #fafafa;
 }
+
 #eye-witness div {
-    color: #fafafa;
-    background-color: rgba(0,0, 0, .6);
-    width: 33.3%;
-    height: 100%;
-    flex:1;
-    float: left;
-    padding: 30px 0px 0px 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, .6);
+  width: 33.3%;
+  height: 100%;
+  flex: 1;
+  float: left;
+  padding: 30px 0px 0px 10px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
 }
-.eye-accounts{
-    text-align: left;
-    padding:40px 50px 10px 30px;
-    font-size: 18px;
-    line-height: 1.5;
+
+.eye-accounts {
+  text-align: left;
+  padding: 40px 50px 10px 30px;
+  font-size: 18px;
+  line-height: 1.5;
 
 }
-.quote-by{
-    padding: 10px 10px;
-    float:right;
+
+.quote-by {
+  padding: 10px 10px;
+  float: right;
 }
+
 /* Video Section */
-#video{
-    height: 450px;
-    width:100%;
-    display: flex;
-    position: relative;
-    z-index: 1;
-    background-color: #fafafa;
- padding:40px;
-  
+#video {
+  height: 450px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background-color: #fafafa;
+  padding: 40px;
+
 
 
 }
-#clip{
-    margin: auto 0;
-    text-align: center;
-    flex: 1;
-    
+
+#clip {
+  margin: auto 0;
+  text-align: center;
+  flex: 1;
+
 }
+
 #clip-text {
-    flex:1;
-    padding:40px;
+  flex: 1;
+  padding: 40px;
 
 }
-#clip-text h3{
-    text-align: center;
-    font-size: 2em;
-  line-height:1.1em;
-   
-}
-#clip-text p{
-  line-height:1.3em;
-   padding: 20px 40px;
+
+#clip-text h3 {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.1em;
+
 }
 
- /* Rosary sign up section */
- #rosary-sign{
-    position: relative;
-      max-width: 40vw;
-      min-height: 50vh;
-      padding:20px;
-      margin:0 auto;
-  }
-  
-  
-  #rosary-text{
-    position:absolute;
-    max-width: 300px;
-    max-height: 390px;   
-    top: 40px;
-    left: 40px;
-    padding-top: 10px;
-    padding-left: 10px;
-    background-color: black;
-    color: white;
-    
-  }
-#rosary-text h4{
-  font-size: 22px;
+#clip-text p {
+  line-height: 1.3em;
+  padding: 20px 40px;
+}
+
+/* Rosary sign up section */
+#rosary-sign {
+  position: relative;
+  max-width: 50vw;
+  min-height: 30vh;
   padding:20px;
+  margin: 0 auto;
 }
-#rosary-text p{
-    font-size: 18px;
-  padding:10px;
+
+
+
+#rosary-text {
+  position: absolute;
+  max-width: 300px;
+  max-height: 390px;
+  top: 40px;
+  left: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: black;
+  color: white;
+
+}
+
+#rosary-text h4 {
+  font-size: 22px;
+  padding: 20px;
+}
+
+#rosary-text p {
+  font-size: 18px;
+  padding: 10px;
 }
 
 /* Footer section */
-footer{
-	background-color: #262626;
-	bottom: 0;
-	display: flex;
-	max-height: auto;
-	position: relative;
-	max-width: 100%;
-	z-index: 1;
-    left: 0;
-    right: 0;
-    color: #fff;
-    padding-top:20px;
-} 
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width:100vw;
-}
-.footer-content h3{
-    font-size: 2.1rem;
-    font-weight: 500;
-    text-transform: capitalize;
-    line-height: 3rem;
-}
-.footer-content p{
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #cacdd2;
+footer {
+  background-color: #262626;
+  bottom: 0;
+  display: flex;
+  max-height: auto;
+  position: relative;
+  max-width: 100%;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding-top: 20px;
 }
 
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
 }
 
-.socials li{
-    margin: 0 10px;
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
 }
 
-.socials a{
-    text-decoration: none;
-    color: #fff;
-    border: 1.1px solid white;
-    padding: 5px;
-    border-radius: 50%;
-}
-.socials a i{
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease;
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
 }
 
-.socials a:hover i{
-    color: aqua;
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
 }
-.footer-menu{
-    margin-bottom: 20px;
-  }
-.footer-menu ul{
-    display: flex;
-  }
-.footer-menu ul li{
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-menu {
+  margin-bottom: 20px;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+.footer-menu ul li {
   padding-right: 10px;
   display: block;
-  }
-.footer-menu ul li a{
-    color: #cfd2d6;
-    border: 1.3px solid white;
-    padding: 6px 15px;
-    border-radius: 50px;
-    text-decoration: none;
-  }
-.footer-menu ul li a:hover{
-    color: #27bcda;
-  }
-.footer-bottom{
-    background: #000;
-    width: 98%;
-    padding: 20px;
-    text-align: center;
 }
-.footer-bottom p{
-    text-align: center;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+  border: 1.3px solid white;
+  padding: 6px 15px;
+  border-radius: 50px;
+  text-decoration: none;
 }
-.footer-bottom p{
-  color:#44bae8;
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 98%;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  text-align: center;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom p {
+  color: #44bae8;
   font-size: 16px;
   text-decoration: none;
 }
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}    
+
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
 
 /* Gallery Page*/
-.gallery {
-    
-	display: flex;
-	 padding-top: 100px; 
-    justify-content: center; 
-    
-	
-} 
-.gallery div{
-
- padding:0px 5px;
-
+* {
+  box-sizing: border-box;
 }
 
-.image1{
-    max-width :300px;
-    max-height:400px;
+body {
+  margin: 0;
+  font-family: Arial;
 }
-.image2{
-    max-width :300px;
-    max-height:300px;
- 
+
+.header {
+  text-align: center;
+  padding: 32px;
 }
+
+.gallery_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding:90px 50px 10px;
+}
+.gallery_column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.gallery_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+ .image_zoom{
+  transition: transform .2s;
+  
+ }
+ .image_zoom:hover {
+  -ms-transform: scale(1.2); /* internet Explorer 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
 .gallery__caption {
-    position: relative;
-    bottom: 30px;
-    left: 0;
-    padding:2px;
-    max-width:300px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 16px;
-    color: white ;
-    background-color: black;
-    opacity: 0.5;
-    
-}
-.gallery__caption_vertical{
-    max-width:265px;
+  position: relative;
+  bottom: 30px;
+  left: 0;
+  padding: 2px;
+  max-width: 300px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  opacity: 0.5;
 
- 
 }
-.gallery__thumb { 
-    top:-50px; 
-    left:-35px; 
-    display:block; 
-    z-index:999; 
-    cursor: pointer; 
-    -webkit-transition-property: all; 
-    -webkit-transition-duration: 0.3s; 
-    -webkit-transition-timing-function: ease; 
-    } 
-.gallery__thumb:hover { 
-    transform: scale(1.2); 
-    
-    }
+
+.gallery__caption_vertical {
+  max-width: 265px;
+
+
+}
+
+.gallery__thumb {
+  top: -50px;
+  left: -35px;
+  display: block;
+  z-index: 999;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+.gallery__thumb:hover {
+  transform: scale(1.2);
+
+}
 
 /* Sign up Page*/
-body, html {
-        height: 100%;
-      }
-      
+body,
+html {
+  height: 100%;
+}
+
 .bg {
-        background-image: url("/assets/images/basilica-fatima.jpg");
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
-    
+  background-image: url("/assets/images/basilica-fatima.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 * {
-        box-sizing: border-box;
-      }
-      
+  box-sizing: border-box;
+}
+
 .container {
-        position: absolute;
-        right: 0px ;
-        top:150px;
-        margin: 150px;
-        height: 500px;
-        max-width: 500px;
-        padding: 16px;
-        background-color: white;
-      }
-.container h1{
-        padding-bottom:22px;
-      }
-      
-input[type=text]{
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        border: none;
-        background: #f1f1f1;
-      }
-      
+  position: absolute;
+  right: 0px;
+  top: 150px;
+  margin: 150px;
+  height: 500px;
+  max-width: 500px;
+  padding: 16px;
+  background-color: white;
+}
+
+.container h1 {
+  padding-bottom: 22px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
 input[type=text]:focus {
-        background-color: #ddd;
-        outline: none;
-      }
-      
-      
+  background-color: #ddd;
+  outline: none;
+}
+
+
 .btn {
-        background-color: rgba(53,148,152,255);
-        color: white;
-        padding: 16px 20px;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-      }
-      
+  background-color: rgba(53, 148, 152, 255);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
 .btn:hover {
-        opacity: 1;
-        color:#44bae8;
-      }
-      /* 
-      @media screen and (max-width: 1200px)
-      @media screen and (max-width:950px) 
-      @media screen and (max-width: 800px)
-      */
+  opacity: 1;
+  color: #44bae8;
+}
 
-      @media screen and (max-width: 1200px){
 
-        body{
-         margin:0 auto;
-        }
-        #rosary-sign{
-          display:flex;
-           max-width: 40vw;
-           min-height: 30vh;
-          
-       }
-        
-        #rosary-text{
-       
-         width:20vw;
-         min-height: 250px;
-          
-        }
-         #rosary-text h4{
-   font-size: 18px;
-   padding:8px;
- }
- #rosary-text p{
-     font-size: 16px;
-   padding:12px;
- }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (max-width: 1200px) {
+
+  body {
+    margin: 0 auto;
+  }
+
+  #rosary-sign {
+    display: flex;
+    max-width: 40vw;
+    min-height: 30vh;
+
+  }
+
+  #rosary-text {
+
+    width: 20vw;
+    min-height: 250px;
+
+  }
+
+  #rosary-text h4 {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  #rosary-text p {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+/*   Sign-up page */
+  
+.container {
+  
+  right:10px;
+  top: 150px;
+  margin: 10px;
+  height: 450px;
+  padding: 15px;
+}
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (max-width:950px) {
+
+  #menu li {
+  
+  padding:20px 5px 10px;
+  
+  
+}
+  .eye-accounts {
+
+    padding: 0px 10px;
+    font-size: 16px;
+
+
+  }
+
+  .quote-by {
+
+    font-size: 14px;
+    padding-top: 30px;
+
+  }
+
+  #video {
+
+    padding: 60px 35px;
+
+  }
+
+  #clip-text {
+    padding: 20px;
+
+  }
+
+  #clip-text h3 {
+    font-size: 1em;
+    line-height: 1em;
+
+  }
+
+  #clip-text p {
+    line-height: 1.1em;
+    padding: 10px 10px;
+  }
+
+  #fatima-clip {
+    max-width: 500px;
+    max-height: 300px;
+
+  }
+
+  #rosary-sign {
+    max-width: 50vw;
+    min-height: 32vh;
+
+  }
+
+  /* Gallery page*/
+  .gallery_column {
+    flex: 50%;
+    max-width: 50%;
+  }
+
+/*   sign-up page */
+  
+      .container {
+      top: 160px;
+      margin: 10px;
+      width:300px;
+      height: 500px;
+  }
+
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (max-width: 800px) {
+  
+
+  #menu li {
+  
+  padding:10px 10px 0px;
+  
+  
+}
+  #clip-text p {
+    
+    padding: 0px 5px;
+  }
+  
+  #rosary-sign {
+    max-width: 50vw;
+    min-height: 30vh;
+
+  }
+
+  #rosary-text {
+    padding: 0px;
+    width: 20vw;
+    height: 24vh;
+
+  }
+  
+/* Gallery */
+.gallery_column {
+  flex: 100%;
+  max-width: 100%;
+}
+/*   sign_up Page */
+    .container {
+      
+      top: 200px;
+      width:300px;
+      height: 510px; 
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 600px){
+
+  h1,
+  h2,
+  h3 {
+
+    letter-spacing: 4px;
+    font-size: 1.5em;
+  }
+  header {
+
+    max-width: 600px;
+    max-height: 80px;
+    
+  }
+  
+  nav {
+    height: 100%;
+    width:100%;
+    display: flex;
+  
+  }
+  
+  .nav-bar {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  #title {
+    padding-top: 25px;
+    padding-left: 10px;
+    flex:26%
  
-       }
-       @media screen and (max-width:950px) {
+   
+  }
+  
+  #logo {
+    flex: 30%;
+    margin:0 auto;
+   padding-right:10px;
+    
+    
+  
+  
+  }
+  
+  
+  #menu {
+    flex: 33.3%;
+    padding: 15px 5px;
+  }
+  
+  #menu li {
+    
+    float: left;
+    padding:20px 20px 10px 2px;
+    
+    
+  }
+  
+  
+  nav a {
+    font-size: 14px;
+    
+  }
+  /* Hero Image */
+  #banner {
+    min-height: 65vh;
+    max-width: 100vw;
+  }
+  
+  #banner-image {   
+    min-height: 100%;
+    max-width:100%;
+  }
 
-        .eye-accounts{
-         
-         padding:0px 10px;
-         font-size: 16px;
-         
-     
-     }
-             .quote-by{
-         
-         font-size: 14px;    
-         padding-top: 30px;
-         
-     }
-             
-         #video{
-          
-      padding:60px 35px;
-       
-     }
-     
-     #clip-text {
-         padding:20px;
-     
-     }
-     #clip-text h3{
-         font-size: 1em;
-       line-height:1em;
-        
-     }
-     #clip-text p{
-       line-height:1.1em;
-        padding: 10px 10px;
-     }
-        #fatima-clip{
-       max-width:500px;
-       max-height:300px;
-                
-        }
-        #rosary-sign{
-           max-width: 50vw;
-           min-height: 30vh;
-          
-       }
-       /* Gallery */
-       .gallery{
-        flex-wrap: wrap;
-       }
-       .gallery__column_right{
-        flex: 50%;
-       }
-       .gallery__column_left{
-        flex:50%;
-       }
-             
-            }
-            @media screen and (max-width: 800px){
+  .eye-accounts {
+    
+    padding: 10px 10px 10px 10px;
+    font-size: 15px;
+    line-height: 1.2;
+  
+  }
+  
+  .quote-by {
+    padding: 10px 10px;
+    
+  }
 
-                #rosary-sign{
-                          max-width: 50vw;
-                          min-height: 30vh;
-                         
-                      } 
-                #rosary-text{
-                        padding:0px;
-                        width:20vw;
-                        min-height: 250px;
-                         
-                       }
-                
-               }
+  #video {
+    max-height: 350px;
+    padding: 10px;
+    margin: auto 0;
+    flex-direction: column;
+  
+  
+  }
+  
+  #clip {
+    margin: auto 0;
+    text-align: center;
+    align-self: center;
+    height:100%;
+  
+  }
+  
+  #clip-text {
+    padding: 10px;
+  }
+  
+  #clip-text h3 {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.1em;
+  
+  }
+  
+  #clip-text p {
+    line-height: 1.1em;
+    padding: 10px 10px;
+  }
+  
+
+}
 
 
-
-
-
-               * {
-                box-sizing: border-box;
-              }
-              
-              body {
-                margin: 0;
-                font-family: Arial;
-              }
-              
-              .header {
-                text-align: center;
-                padding: 32px;
-              }
-              
-              .row {
-                display: flex;
-                flex-wrap: wrap;
-                padding: 0 4px;
-              }
-              
-              /* Create four equal columns that sits next to each other */
-              .column {
-                flex: 25%;
-                max-width: 25%;
-                padding: 0 4px;
-              }
-              
-              .column img {
-                margin-top: 8px;
-                vertical-align: middle;
-              }
-              
-              /* Responsive layout - makes a two column-layout instead of four columns */
-              @media (max-width: 950px) {
-                .column {
-                  flex: 50%;
-                  max-width: 50%;
-                }
-              }
-              
-              /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-              @media (max-width: 800px) {
-                .column {
-                  flex: 100%;
-                  max-width: 100%;
-                }
-              }
