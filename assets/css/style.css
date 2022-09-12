@@ -6,7 +6,6 @@
 }
 
 body {
-
   font-family: 'Noto Serif Georgian', Georgia, Times, serif;
   font-weight: 300;
   color: #3a3a3a;
@@ -63,19 +62,17 @@ img {
   list-style: none;
   float: left;
   padding-top: 20px;
-  padding:20px 10px 10px 10px;
+  padding: 20px 10px 10px 10px;
   font-family: Oswald, sans-serif;
-  font-weight:bold;
+  font-weight: bold;
   text-transform: uppercase;
-  
+
 }
 
 nav a,
 #rosary-text a {
 
   text-decoration: none;
-  
-  
 }
 
 nav a {
@@ -154,7 +151,8 @@ h3 {
   padding: 20px 100px;
 
 }
-em{
+
+em {
   font-weight: bold;
 }
 
@@ -255,7 +253,7 @@ em{
   position: relative;
   max-width: 50vw;
   min-height: 30vh;
-  padding:20px;
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -290,13 +288,14 @@ footer {
   bottom: 0;
   display: flex;
   max-height: auto;
-  position: relative;
+  position: absolute;
   max-width: 100%;
   z-index: 1;
   left: 0;
   right: 0;
   color: #fff;
   padding-top: 20px;
+  bottom: 0;
 }
 
 .footer-content {
@@ -422,8 +421,9 @@ body {
 .gallery_row {
   display: flex;
   flex-wrap: wrap;
-  padding:90px 50px 10px;
+  padding: 90px 50px 10px;
 }
+
 .gallery_column {
   flex: 25%;
   max-width: 25%;
@@ -434,14 +434,18 @@ body {
   margin-top: 8px;
   vertical-align: middle;
 }
- .image_zoom{
+
+.image_zoom {
   transition: transform .2s;
-  
- }
- .image_zoom:hover {
-  -ms-transform: scale(1.2); /* internet Explorer 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
+
+}
+
+.image_zoom:hover {
+  -ms-transform: scale(1.2);
+  /* internet Explorer 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 
@@ -575,26 +579,28 @@ input[type=text]:focus {
     padding: 12px;
   }
 
-/*   Sign-up page */
-  
-.container {
-  
-  right:10px;
-  top: 150px;
-  margin: 10px;
-  height: 450px;
-  padding: 15px;
+  /*   Sign-up page */
+
+  .container {
+
+    right: 10px;
+    top: 150px;
+    margin: 10px;
+    height: 450px;
+    padding: 15px;
+  }
 }
-}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media screen and (max-width:950px) {
 
   #menu li {
-  
-  padding:20px 5px 10px;
-  
-  
-}
+
+    padding: 20px 5px 10px;
+
+
+  }
+
   .eye-accounts {
 
     padding: 0px 10px;
@@ -650,32 +656,34 @@ input[type=text]:focus {
     max-width: 50%;
   }
 
-/*   sign-up page */
-  
-      .container {
-      top: 160px;
-      margin: 10px;
-      width:300px;
-      height: 500px;
+  /*   sign-up page */
+
+  .container {
+    top: 160px;
+    margin: 10px;
+    width: 300px;
+    height: 500px;
   }
 
 
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (max-width: 800px) {
-  
+
 
   #menu li {
-  
-  padding:10px 10px 0px;
-  
-  
-}
+
+    padding: 10px 10px 0px;
+
+
+  }
+
   #clip-text p {
-    
+
     padding: 0px 5px;
   }
-  
+
   #rosary-sign {
     max-width: 50vw;
     min-height: 30vh;
@@ -688,22 +696,24 @@ input[type=text]:focus {
     height: 24vh;
 
   }
-  
-/* Gallery */
-.gallery_column {
-  flex: 100%;
-  max-width: 100%;
-}
-/*   sign_up Page */
-    .container {
-      
-      top: 200px;
-      width:300px;
-      height: 510px; 
+
+  /* Gallery */
+  .gallery_column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /*   sign_up Page */
+  .container {
+
+    top: 200px;
+    width: 300px;
+    height: 510px;
   }
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
 
   h1,
   h2,
@@ -712,84 +722,84 @@ input[type=text]:focus {
     letter-spacing: 4px;
     font-size: 1.5em;
   }
+
   header {
 
     max-width: 600px;
     max-height: 80px;
-    
+
   }
-  
+
   nav {
     height: 100%;
-    width:100%;
+    width: 100%;
     display: flex;
-  
+
   }
-  
+
   .nav-bar {
     flex: 1;
     padding: 10px;
   }
-  
+
   #title {
     padding-top: 25px;
     padding-left: 10px;
-    flex:26%
- 
-   
+    flex: 26%
   }
-  
+
   #logo {
     flex: 30%;
-    margin:0 auto;
-   padding-right:10px;
-    
-    
-  
-  
+    margin: 0 auto;
+    padding-right: 10px;
+
+
+
+
   }
-  
-  
+
+
   #menu {
     flex: 33.3%;
     padding: 15px 5px;
   }
-  
+
   #menu li {
-    
+
     float: left;
-    padding:20px 20px 10px 2px;
-    
-    
+    padding: 20px 20px 10px 2px;
+
+
   }
-  
-  
+
+
   nav a {
     font-size: 14px;
-    
+
   }
+
   /* Hero Image */
   #banner {
     min-height: 65vh;
     max-width: 100vw;
   }
-  
-  #banner-image {   
+
+  #banner-image {
     min-height: 100%;
-    max-width:100%;
+    max-width: 100%;
   }
 
   .eye-accounts {
-    
+
     padding: 10px 10px 10px 10px;
     font-size: 15px;
     line-height: 1.2;
-  
+
   }
-  
+
   .quote-by {
     padding: 10px 10px;
-    
+
   }
 
   #video {
@@ -797,35 +807,33 @@ input[type=text]:focus {
     padding: 10px;
     margin: auto 0;
     flex-direction: column;
-  
-  
+
+
   }
-  
+
   #clip {
     margin: auto 0;
     text-align: center;
     align-self: center;
-    height:100%;
-  
+    height: 100%;
+
   }
-  
+
   #clip-text {
     padding: 10px;
   }
-  
+
   #clip-text h3 {
     text-align: center;
     font-size: 1.2em;
     line-height: 1.1em;
-  
+
   }
-  
+
   #clip-text p {
     line-height: 1.1em;
     padding: 10px 10px;
   }
-  
+
 
 }
-
-
