@@ -224,7 +224,7 @@ em {
 }
 
 /* Rosary sign up section */
-#rosary-sign {
+/* #rosary-sign {
   position: relative;
   max-width: 35vw;
   max-height: 40vh;
@@ -253,7 +253,7 @@ em {
 #rosary-text p {
   font-size: 1.2em;
   padding: 10px;
-}
+} */
 
 /* Footer section */
 footer {
@@ -489,7 +489,7 @@ input[type=text]:focus {
     padding: 10px;
   }
 
-  #rosary-sign {
+  /* #rosary-sign {
     display: flex;
     max-width: 40vw;
     min-height: 30vh;
@@ -508,7 +508,7 @@ input[type=text]:focus {
   #rosary-text p {
     font-size: 16px;
     padding: 12px;
-  }
+  } */
 
   /*   Sign-up page */
   .container {
@@ -549,10 +549,10 @@ input[type=text]:focus {
     max-height: 300px;
   }
 
-  #rosary-sign {
+  /* #rosary-sign {
     max-width: 50vw;
     min-height: 32vh;
-  }
+  } */
 
   /* Gallery page*/
   .galleryColumn {
@@ -604,11 +604,11 @@ input[type=text]:focus {
     padding: 0px 5px;
   }
 
-  #rosary-text {
+  /* #rosary-text {
     padding: 0px;
     width: 50%;
     height: 50%;
-  }
+  } */
 
   /* Gallery */
   .galleryColumn {
@@ -696,7 +696,7 @@ input[type=text]:focus {
     padding: 20px;
   }
 
-  #rosary-sign {
+  /* #rosary-sign {
     max-width: 80vw;
     min-height: 33vh;
     padding: 50px;
@@ -711,5 +711,5 @@ input[type=text]:focus {
 
   #rosary-text p {
     font-size: 0.9em;
-  }
+  } */
 }
