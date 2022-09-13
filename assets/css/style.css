@@ -8,6 +8,7 @@ body {
   font-family: 'Noto Serif Georgian', Georgia, Times, serif;
   font-weight: 300;
   color: #3a3a3a;
+  background-color: #fafafa;
 }
 
 /* Navigation Bar */
@@ -121,7 +122,7 @@ h3 {
 #main-content {
   position: relative;
   z-index: 1;
-  background-color: #fafafa;
+
   padding: 0px 40px;
 }
 
@@ -144,7 +145,6 @@ em {
   text-align: center;
   padding: 20px;
   position: relative;
-  background-color: #fafafa;
 }
 
 #eye-witness {
@@ -157,7 +157,6 @@ em {
   display: flex;
   flex-direction: row;
   position: relative;
-  background-color: #fafafa;
 }
 
 .eye-witness {
@@ -197,7 +196,6 @@ em {
   display: flex;
   position: relative;
   z-index: 1;
-  background-color: #fafafa;
   padding: 40px;
 }
 
