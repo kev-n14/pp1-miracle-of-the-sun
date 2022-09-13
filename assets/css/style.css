@@ -91,16 +91,16 @@ h3 {
 
 /* Hero Image */
 .banner {
-  height: 62vh;
-  width: 100vw;
+  height: 70vh;
+  width: 110vw;
   overflow: hidden;
   position: relative;
   z-index: 1;
 }
 
 #banner-image {
-  max-width: 100vw;
-  min-height: 85vh;
+  max-width: 100%;
+  min-height: 100%;
   background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
   animation-name: banner-zoom;
   animation-duration: 5s;
