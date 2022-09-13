@@ -421,7 +421,7 @@ html {
 }
 
 .bg {
-  background-image: url("/assets/images/basilica-fatima.jpg");
+  background-image: url("../images/basilica-fatima.jpg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
