@@ -101,7 +101,7 @@ h3 {
 #banner-image {
   max-width: 100%;
   min-height: 100%;
-  background: url('/assets/images/Banner-Fatima-image.png') no-repeat center center;
+  background: url('../images/Banner-Fatima-image.png') no-repeat center center;
   animation-name: banner-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
