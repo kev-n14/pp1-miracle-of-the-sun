@@ -13,7 +13,14 @@ favicon
 https://www.flaticon.com/free-icons/catholic/2
 
 
-Fatima - The Miracle of the sun
+Fatima - The Miracle of The Sun
+
+This site is based around the Historical and Miraculous Event that took place in Fatima in 1917.
+The Sun moved out of postition and came towards the Earth by the power of God through Our Lady.The Aim of this site is to inform and educate people on this event. 
+
+A brief piece of text of the story of the miracle of the sun is provided along with eye witness accounts and a short video. There is a Gallery Page to display images of the event. And a sign up page for people to join our rosary group. 
+
+ Where the Si
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
 
 For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
@@ -26,32 +33,38 @@ In this section, you should go over the different parts of your project, and des
 Existing Features
 Navigation Bar
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+Featured on all three pages, the full responsive navigation bar includes links to the Logo, Icon image, Home, Gallery and Sign Up page and is identical in each page to allow for farmiliar and easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Nav Bar
+The naviagtion bar will follow to user down through the page to make navigating the site through the site faster and more accessible.
+
 
 The landing page image
 
-The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-This section introduces the user to Love Running with an eye catching animation to grab their attention
+The landing includes a wide photograph to introduces the user to Fatima with an eye catching animation to grab their attention
 Landing Page
 
-Club Ethos Section
+Main Content Section
 
-The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-Club Ethos
+This Section briefly summaries the story of the miracle fo the sun for the user. It captures the main aspects of the event in chronilogical order. fill with quotes and important details
+Main Content
 
-Meetup Times section
+Eye Witness section
 
-This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-This section will be updated as these times change to keep the user up to date.
-Meetup Times
+This section is a collection of three eye witness accounts and there sources. it will have a dark background image to make it stand out and catch the users attention.
+Eye Witness
+
+Video section 
+
+This section will consists of a short video educating the user on the event.
+Along with the video will be a short text given details bout the video and it origins.
+The video will be playable from browser.
+Video Witness
 
 The Footer
 
-The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
-The footer is valuable to the user as it encourages them to keep connected via social media
+The footer section includes a short text about the Fatima Group and links to the relevant social media sites for Fatima. The links will open to a new tab to allow easy navigation for the user.
+The footer is valuable to the user as it encourages them to keep connected via social media.
+below the social media links will also be navigation links too the Home, GAllery, Sign up pages.
 Footer
 
 Gallery
