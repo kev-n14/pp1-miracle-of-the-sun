@@ -311,7 +311,7 @@ footer {
 
 .footer-bottom {
   background: #000;
-  width: 98%;
+  width: 100%;
   padding: 20px;
   text-align: center;
 }
@@ -387,7 +387,7 @@ html {
 
 .bg {
   background-image: url("../images/basilica-fatima.jpg");
-  height: 100%;
+  min-height: 170vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

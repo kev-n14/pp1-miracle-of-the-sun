@@ -40,37 +40,37 @@ The landing includes a wide photograph to introduces the user to Fatima with an 
 Landing Page
 
 ### Main Content Section
-
+![Main Content](/assets/images/ReadMe-Images/Main-text.png)
 This Section briefly summaries the story of the miracle fo the sun for the user. It captures the main aspects of the event in chronilogical order. fill with quotes and important details
 Main Content
 
 ### Eye Witness section
-
+![Eye Witness](/assets/images/ReadMe-Images/Eye-witness.png)
 This section is a collection of three eye witness accounts and there sources. it will have a dark background image to make it stand out and catch the users attention.
 Eye Witness
 
 ### Video section 
-
+![Video Section](/assets/images/ReadMe-Images/video-section.png)
 This section will consists of a short video educating the user on the event.
 Along with the video will be a short text given details bout the video and it origins.
 The video will be playable from browser.
 Video Witness
 
 ### The Footer
-
+![Footer section](/assets/images/ReadMe-Images/footer-section.png)
 The footer section includes a short text about the Fatima Group and links to the relevant social media sites for Fatima. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 below the social media links will also be navigation links too the Home, GAllery, Sign up pages.
 Footer
 
 ### Gallery
-
+![Gallery Page](/assets/images/ReadMe-Images)
 The gallery will provide the user with images from Fatima. This will make learning about the event easier for the user.
 This section is valuable source for education purpose.
 Gallery
 
 ### The Sign Up Page
-
+![Sign Up Page](/assets/images/ReadMe-Images)
 This page will allow the user to get signed up to our Rosary Group. Here they will become a member of our Rosary community. The user will be asked to submit their full name and email address.
 Sign Up
 
