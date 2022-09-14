@@ -9,73 +9,68 @@ https://aleteia.org/2021/10/13/a-scientist-describes-the-miracle-of-the-sun-at-f
 images
 https://unsplash.com/photos/cKtxN0UICyk
 
-favicon
-https://www.flaticon.com/free-icons/catholic/2
+[favicon](https://www.flaticon.com/free-icons/catholic/2)
 
 
-Fatima - The Miracle of The Sun
 
-This site is based around the Historical and Miraculous Event that took place in Fatima in 1917.
-The Sun moved out of postition and came towards the Earth by the power of God through Our Lady.The Aim of this site is to inform and educate people on this event. 
+# Fatima - The Miracle of The Sun
+
+This site is based around the Historical and Miraculous Event that took place in **Fatima** in 1917.
+The Sun moved out of postition and came towards the Earth by the power of God through Our Lady.The aim of this site is to inform and educate people on this event. 
 
 A brief piece of text of the story of the miracle of the sun is provided along with eye witness accounts and a short video. There is a Gallery Page to display images of the event. And a sign up page for people to join our rosary group. 
 
- Where the Si
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience.
+## Features
+---
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club.
-
-Responsice Mockup
-
-Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 Existing Features
-Navigation Bar
+### Navigation Bar
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Icon image, Home, Gallery and Sign Up page and is identical in each page to allow for farmiliar and easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 The naviagtion bar will follow to user down through the page to make navigating the site through the site faster and more accessible.
 
 
-The landing page image
+### The landing page image
 
 The landing includes a wide photograph to introduces the user to Fatima with an eye catching animation to grab their attention
 Landing Page
 
-Main Content Section
+### Main Content Section
 
 This Section briefly summaries the story of the miracle fo the sun for the user. It captures the main aspects of the event in chronilogical order. fill with quotes and important details
 Main Content
 
-Eye Witness section
+### Eye Witness section
 
 This section is a collection of three eye witness accounts and there sources. it will have a dark background image to make it stand out and catch the users attention.
 Eye Witness
 
-Video section 
+### Video section 
 
 This section will consists of a short video educating the user on the event.
 Along with the video will be a short text given details bout the video and it origins.
 The video will be playable from browser.
 Video Witness
 
-The Footer
+### The Footer
 
 The footer section includes a short text about the Fatima Group and links to the relevant social media sites for Fatima. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 below the social media links will also be navigation links too the Home, GAllery, Sign up pages.
 Footer
 
+### Gallery
+
+The gallery will provide the user with images from Fatima. This will make learning about the event easier for the user.
+This section is valuable source for education purpose.
 Gallery
 
-The gallery will provide the user with supporting images to see what the meet ups look like.
-This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
-Gallery
+### The Sign Up Page
 
-The Sign Up Page
-
-This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+This page will allow the user to get signed up to our Rosary Group. Here they will become a member of our Rosary community. The user will be asked to submit their full name and email address.
 Sign Up
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
@@ -139,3 +134,31 @@ Writing Your Best Code
 HTML & CSS Coding Best Practices
 Google HTML/CSS Style Guide
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+
+### User stories
+First Time Visitor Goals
+* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+Returning Visitor Goals
+As a Returning Visitor, I want to find information about coding challenges.
+As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+As a Returning Visitor, I want to find community links.
+Frequent User Goals
+As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+As a Frequent User, I want to check to see if there are any new blog posts.
+As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+Design
+Colour Scheme
+The two main colours used are Code Insititue red, and white.
+Typography
+The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+Imagery
+Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Wireframes
+Home Page Wireframe - View
+
+Mobile Wireframe - View
+
+Contact Us Page Wireframe - View
+

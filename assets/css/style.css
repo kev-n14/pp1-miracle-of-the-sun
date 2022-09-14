@@ -636,7 +636,7 @@ input[type=text]:focus {
   }
 }
 
-@media screen and (min-width: 412px) {
+/* @media screen and (min-width: 412px) {
   body {
     width: 130%;
     margin: 0;
@@ -666,4 +666,4 @@ input[type=text]:focus {
   .footer-content {
     width: 130vw;
   }
-}
+} */
