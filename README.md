@@ -64,13 +64,13 @@ below the social media links will also be navigation links too the Home, GAllery
 Footer
 
 ### Gallery
-![Gallery Page](/assets/images/ReadMe-Images)
+![Gallery Page](/assets/images/ReadMe-Images/Gallery-Page.png)
 The gallery will provide the user with images from Fatima. This will make learning about the event easier for the user.
 This section is valuable source for education purpose.
 Gallery
 
 ### The Sign Up Page
-![Sign Up Page](/assets/images/ReadMe-Images)
+![Sign Up Page](/assets/images/ReadMe-Images/Sign-up-page.png)
 This page will allow the user to get signed up to our Rosary Group. Here they will become a member of our Rosary community. The user will be asked to submit their full name and email address.
 Sign Up
 
@@ -80,7 +80,8 @@ In addition, you may also use this section to discuss plans for additional featu
 
 Features Left to Implement
 Another feature idea
-Testing
+## Testing
+---
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
@@ -89,15 +90,17 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Validator Testing
-HTML
+## Validator Testing
+---
+### HTML
 No errors were returned when passing through the official W3C validator
-CSS
+### CSS
 No errors were found when passing through the official (Jigsaw) validator
 Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-Deployment
+## Deployment
+---
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -106,7 +109,8 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
-Credits
+## Credits
+---
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
@@ -136,11 +140,13 @@ HTML & CSS Coding Best Practices
 Google HTML/CSS Style Guide
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
 
-### User stories
+## User stories
+---
 First Time Visitor Goals
 * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
 * As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 * As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
 Returning Visitor Goals
 As a Returning Visitor, I want to find information about coding challenges.
 As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
