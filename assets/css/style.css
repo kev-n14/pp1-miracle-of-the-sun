@@ -636,18 +636,11 @@ input[type=text]:focus {
   }
 }
 
-/* @media screen and (min-width: 412px) {
+@media screen and (max-width: 360px) {
+
   body {
-    width: 130%;
-    margin: 0;
-  }
+    width: 150vw;
 
-  nav {
-    margin: 0;
-  }
-
-  .menu li {
-    padding: 12px 7px 0px 2px;
   }
 
   nav a {
@@ -655,15 +648,16 @@ input[type=text]:focus {
   }
 
   .banner {
-    margin: 0 auto;
-    height: 70%;
+    height: 70vh;
+    max-width: 150vw;
+
   }
 
-  #banner-image {
-    width: 100vw;
+  iframe {
+    width: 490px;
   }
 
   .footer-content {
-    width: 130vw;
+    width: 150vw;
   }
-} */
+}
