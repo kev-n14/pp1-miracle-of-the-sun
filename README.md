@@ -93,10 +93,10 @@ If this section grows too long, you may want to split it off into a separate fil
 ## Validator Testing
 ---
 ### HTML
-No errors were returned when passing through the official W3C validator
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkev-n14.github.io%2Fpp1-miracle-of-the-sun%2Findex.html)
 ### CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
+No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/#textarea)
+### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 ## Deployment
