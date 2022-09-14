@@ -27,14 +27,15 @@ In this section, you should go over the different parts of your project, and des
 
 Existing Features
 ### Navigation Bar
+![Navagation Bar](/assets/images/ReadMe-Images/Nav-Bar-image.png)
 
 Featured on all three pages, the full responsive navigation bar includes links to the Logo, Icon image, Home, Gallery and Sign Up page and is identical in each page to allow for farmiliar and easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 The naviagtion bar will follow to user down through the page to make navigating the site through the site faster and more accessible.
 
 
-### The landing page image
-
+### The Hero image section
+![Hero Image](/assets/images/ReadMe-Images/Banner-image.png)
 The landing includes a wide photograph to introduces the user to Fatima with an eye catching animation to grab their attention
 Landing Page
 
