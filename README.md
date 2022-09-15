@@ -1,18 +1,5 @@
 # pp1-miracle-of-the-sun
 
-https://www.ewtn.com/catholicism/devotions/sixth-apparition-of-our-lady-23368
-https://worldfatima-englandwales.org.uk/the-miracle-of-the-sun-at-fatima/
-https://en.wikipedia.org/wiki/Miracle_of_the_Sun
-https://aleteia.org/2021/10/13/a-scientist-describes-the-miracle-of-the-sun-at-fatima/
-
-
-images
-https://unsplash.com/photos/cKtxN0UICyk
-
-[favicon](https://www.flaticon.com/free-icons/catholic/2)
-
-
-
 # Fatima - The Miracle of The Sun
 
 This site is based around the Historical and Miraculous Event that took place in **Fatima** in 1917.
@@ -80,6 +67,29 @@ In addition, you may also use this section to discuss plans for additional featu
 
 Features Left to Implement
 Another feature idea
+## Technologies Used
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+ ### Programs Used
+
+1. [Google Fonts](https://fonts.google.com/):
+    * Google fonts were used to choose the fonts for this site. the fonts were declared in the style.css file which is used on all pages throughout the site.
+
+1. [Font Awesome](https://fontawesome.com/):
+    * Font Awesome was used on all pages throughout the website to add icons for social media links.
+
+1. [Gitpod](https://www.gitpod.io/):
+    * Gitpod terminal to commit to Git and Push to GitHub.
+
+1. [GitHub](https://github.com/):
+    * GitHub was used to store the sites code after being pushed from Gitpod.
+
+1. [Balsamiq](https://balsamiq.com/):
+    * Balsamiq was used to create the wireframes during the design process.
+
+
 ## Testing
 ---
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -92,9 +102,9 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Validator Testing
 ---
-### HTML
+* **HTML**
 No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkev-n14.github.io%2Fpp1-miracle-of-the-sun%2Findex.html)
-### CSS
+* **CSS**
 No errors were found when passing through the official [(Jigsaw) validator](https://validator.w3.org/nu/#textarea)
 ### Unfixed Bugs
 You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
@@ -109,22 +119,75 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
 
+
+
+## User Experience (UX)
+---
+* ### **User stories**
+
+    * **First Time Visitor Goals**
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
+        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+
+    * **Returning Visitor Goals**
+        1. As a Returning Visitor, I want to find information about coding challenges.
+
+        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+
+        3. As a Returning Visitor, I want to find community links.
+
+    * **Frequent User Goals**
+        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+
+        2. As a Frequent User, I want to check to see if there are any new blog posts.
+
+        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
+* ### **Design**
+    * **Colour Scheme**
+        *  The two main colours used are Code Insititue red, and white.
+
+    * **Typography**
+        * The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+    * **Imagery**
+        Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+Wireframes
+Home Page Wireframe - View
+* ### **Wireframes**
+    * Home Page Wireframe - [View]()
+
+    * Mobile Wireframe - [View]()
+
+    * Contact Us Page Wireframe - [View]()
+
 ## Credits
 ---
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-Content
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome
-Media
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
+* ### Content
+    * The main-content section text for the Home page was in part taken from 
+        * ewtn-[Sixth Appartion of Our Lady](https://www.ewtn.com/catholicism/devotions/sixth-apparition-of-our-lady-23368), 
+        * The World Apostolate of Fatima England and Wales-[The Miracle of the sun at Fatima](https://worldfatima-englandwales.org.uk/the-miracle-of-the-sun-at-fatima/),
+        * wikipedia-[Miracle of the Sun](https://en.wikipedia.org/wiki/Miracle_of_the_Sun),
+        * aleteia-[A scientist describes the Miracle of the Sun at Fatima](https://aleteia.org/2021/10/13/a-scientist-describes-the-miracle-of-the-sun-at-fatima/)
+    * The icons in the footer for social media links was taken from [Font Awesome](https://fontawesome.com/).
 
-Other General Project Advice
+    * Instructions on how to implement form validation on the Sign Up page was taken from Specific [w3schools](https://www.w3schools.com/) Tutorials.
+
+* ### Media
+    * the favicon was from [favicon](https://www.flaticon.com/free-icons/catholic/2).
+    * The icon in the navigation bar was created by developer using Adobe Express.
+    * The photos used on the Home and sign up pages of the site were taken from [unsplash](https://unsplash.com/).
+
+    * The images used for the Gallery page was taken from [unsplash](https://unsplash.com/) and [wikipedia](https://en.wikipedia.org/wiki/Miracle_of_the_Sun).
+    * The video explaining the event was embedded and sourced from [Youtube](https://www.youtube.com/embed/L4IbOzuNlmE).
+
+## Other General Project Advice
 Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
 
 One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
@@ -139,33 +202,3 @@ Writing Your Best Code
 HTML & CSS Coding Best Practices
 Google HTML/CSS Style Guide
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
-
-## User stories
----
-First Time Visitor Goals
-* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-* As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-Returning Visitor Goals
-As a Returning Visitor, I want to find information about coding challenges.
-As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-As a Returning Visitor, I want to find community links.
-Frequent User Goals
-As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-As a Frequent User, I want to check to see if there are any new blog posts.
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-Design
-Colour Scheme
-The two main colours used are Code Insititue red, and white.
-Typography
-The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-Imagery
-Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-Wireframes
-Home Page Wireframe - View
-
-Mobile Wireframe - View
-
-Contact Us Page Wireframe - View
-
