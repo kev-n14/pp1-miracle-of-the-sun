@@ -156,11 +156,13 @@ The live link can be found here - https://kev-n14.github.io/pp1-miracle-of-the-s
 Wireframes
 Home Page Wireframe - View
 * ### **Wireframes**
-    * Home Page Wireframe - [View]()
+    * Home Page Wireframe - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Fatima.bmpr)
+![Index page](/assets/images/ReadMe-Images/index-wireframe.png)
+![Gallery page](/assets/images/ReadMe-Images/gallery-wireframe.png)
+![Sign Up page](/assets/images/ReadMe-Images/sign-up-wireframe.png)
 
-    * Mobile Wireframe - [View]()
-
-    * Contact Us Page Wireframe - [View]()
+    * Mobile Wireframe - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Phone.bmpr)
+    ![Phone wireframe](/assets/images/ReadMe-Images/phone-wireframe.png)
 
 ## Credits
 ---
@@ -174,7 +176,7 @@ You can break the credits section up into Content and Media, depending on what y
         * The World Apostolate of Fatima England and Wales-[The Miracle of the sun at Fatima](https://worldfatima-englandwales.org.uk/the-miracle-of-the-sun-at-fatima/),
         * wikipedia-[Miracle of the Sun](https://en.wikipedia.org/wiki/Miracle_of_the_Sun),
         * aleteia-[A scientist describes the Miracle of the Sun at Fatima](https://aleteia.org/2021/10/13/a-scientist-describes-the-miracle-of-the-sun-at-fatima/)
-    * The icons in the footer for social media links was taken from [Font Awesome](https://fontawesome.com/).
+    * The icons in the footer for social media links was taken from [Font Awesome](https://fontawesome.com/)
 
     * Instructions on how to implement form validation on the Sign Up page was taken from Specific [w3schools](https://www.w3schools.com/) Tutorials.
 
