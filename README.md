@@ -1,8 +1,6 @@
 # pp1-miracle-of-the-sun
 
-Desktop            |  Laptop |  Tablet
-:-------------------------:|:-------------------------:|:-------------------------:
-![](/assets/images/ReadMe-Images/macscreen.png)|![](/assets/images/ReadMe-Images/laptop-screen.png)|  ![](/assets/images/ReadMe-Images/Tablet.png)
+![Display on differnt screens](/assets/images/ReadMe-Images/Display.jpg)
 
 # Fatima - The Miracle of The Sun
 
@@ -13,7 +11,7 @@ A brief piece of text of the story of the miracle of the sun is provided along w
 
 ## Features
 ---
-### Navigation Bar
+### **Navigation Bar**
 ![Navagation Bar](/assets/images/ReadMe-Images/Nav-Bar-image.png)
 
 The Navigation Bar is found at the top of pages of the site, the full responsive navigation bar includes links to the Logo, Icon image, Home, Gallery and Sign Up page and is identical in each page to allow for familiar and easy navigation.
@@ -21,47 +19,91 @@ The navigation bar will allow the user to easily navigate from page to page with
 The naviagtion bar will follow to user down through the page to make navigating through the site faster and more accessible.
 
 
-### The Banner section
+### **The Banner section**
 ![Hero Image](/assets/images/ReadMe-Images/Banner-image.png)
 The banner section includes a wide photograph to introduces the user to Fatima with an eye catching animation to grab their attention.
 
 
-### Main Content Section
+### **Main Content Section**
 ![Main Content](/assets/images/ReadMe-Images/Main-text.png)
 This Section briefly summaries the story of the miracle of the sun for the user. It captures the main aspects of the event in chronilogical order. Filled with quotes and important details.
 
 
-### Eye Witness section
+### **Eye Witness section**
 ![Eye Witness](/assets/images/ReadMe-Images/Eye-witness.png)
 This section is a collection of three eye witness accounts and there sources. it will have a dark background image to make it stand out and catch and hold the users attention.
 
-### Video section 
+### **Video section** 
 ![Video Section](/assets/images/ReadMe-Images/video-section.png)
 This section will consist of a short video educating the user on the event of the miracle.
 Along with the video will be a short text given details about the video and it's origins.
 The video will be playable from browser.
 
 
-### The Footer
+### **Footer**
 ![Footer section](/assets/images/ReadMe-Images/footer-section.png)
 The footer section includes a short text about the Fatima Group and links to the relevant social media sites for Fatima. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media. Below the social media links will also be navigation links to the Home, Gallery, Sign up pages.
 
-### Gallery
+### **Gallery**
 ![Gallery Page](/assets/images/ReadMe-Images/Gallery-Page.png)
 The gallery will provide the user with images from Fatima. This will make learning about the event easier for the user.
 As the user hovers over the image it will increase in size. To give feedback to the user.
 This section is valuable source for education.
 
-### The Sign Up Page
+### **The Sign Up Page**
 ![Sign Up Page](/assets/images/ReadMe-Images/Sign-up-page.png)
 This page will allow the user to get signed up to our Rosary Group. Here they will become a member of our Rosary community. The user will be asked to submit their full name and email address.
 
-### Features Left to Implement
+### **Features Left to Implement**
 In the future we hope to add:
 * a downloadable pdf document detailing all the whole story of the "Miracle of the sun".
 * an About Us page - informing users about the "Fatima Group".
 * google map section- to make finding fatima where the event to place easier to locate for user
+
+## User Experience (UX)
+---
+* ### **User stories**
+
+    * **First Time Visitor Goals**
+        1. As a First Time Vistor, I want to be able to understand the main purpose for this site. I should be to determine the aim of the site effortlessly and in a short period of time.
+
+        2. As a First Time Vistor, I believe naviagtion from one page to another should by seamless and efficient. I want a site that I don't have to scroll alot to find my way around the webpage.
+
+        3. As a First Time Vistor, I want many different types of media content such as text, imagery and video etc.
+
+    * **Returning Visitor Goals**
+        1. As a Returning Visitor, I want to learn more about the organization behind the webpage.
+
+        2. As a Returning Visitor, I would like to be able to get in contact with the organizeration to find out about future projects they may have.
+
+        3. As a Returning Visitor, I want more downloadable content for me to share.
+
+    * **Frequent User Goals**
+        1. As a Frequent User, I want to be able to keep in touch with members who have joined the sign up page.
+
+        2. As a Frequent User, I want to check to see if any new information as been added.
+
+        3. As a Frequent User, I want to sign up to the Rosary Group so that kept up to date about events taken place within the group.
+
+* ### **Design**
+    * **Colour Scheme**
+        *  As this is site is based around an historical event the colour scheme is white with aspects of black and greys.
+        * The hero image is the only brightly coloured image to catch the users eye.
+        * On the Gallery page all the images are bright and have a white background. To focus the users attention on the images.
+        * The sign up page will have a large background image with an off green hue contrast. The sign up bottom at the bottom of the form is the same colour as the background to connect these tw elements and to make for a more pleasing experience for the user.
+    * **Typography**
+        * The "Noto Serif Georgian" font is the main font used throughout the whole website with Georgia, Times, serif as the fallback font respectively in case the font isn't being imported into the site correctly. "Noto Serif Georgian" is a clean, attractive and appropriate font.
+    * **Imagery**
+         * On the Home page the hero image is brightly coloured and large to catch the users attention.
+         * On the Gallery page there is a balance of brightly coloured images and dark grey images. All images have a white background. To focus the users attention on the images.
+        * The sign up page will have a large background image with an off green hue contrast.
+
+* ### **Wireframes**
+    * Fatima - 3 Pages Wireframe - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Fatima.bmpr)
+
+
+    * Mobile Wireframe - veritical and landscape - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Phone.bmpr)
 
 ## Technologies Used
 ---
@@ -118,51 +160,6 @@ The live link can be found here - https://kev-n14.github.io/pp1-miracle-of-the-s
 
 
 
-## User Experience (UX)
----
-* ### **User stories**
-
-    * **First Time Visitor Goals**
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
-    * **Returning Visitor Goals**
-        1. As a Returning Visitor, I want to find information about coding challenges.
-
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        3. As a Returning Visitor, I want to find community links.
-
-    * **Frequent User Goals**
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-
-* ### **Design**
-    * **Colour Scheme**
-        *  As this is site is based around an historical event the colour scheme is white with aspects of black nd greys.
-        * The hero image is the only brightly coloured image to catch the users eye.
-        * On the Gallery page all the images are bright and have a white background. to focus the users attention on the images.
-        * The sign up page will have a large backgound image with an off green hue contrast. The sign up bottom at the bottom of the form is the same colour as the background to connect these tw elements and to make for a more pleasing experience for the user.
-    * **Typography**
-        * The "Noto Serif Georgian" font is the main font used throughout the whole website with Georgia, Times, serif as the fallback font respectively in case the font isn't being imported into the site correctly. "Noto Serif Georgian" is a clean, attractive and appropriate font.
-    * **Imagery**
-        Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
-Wireframes
-Home Page Wireframe - View
-* ### **Wireframes**
-    * Home Page Wireframe - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Fatima.bmpr)
-![Index page](/assets/images/ReadMe-Images/index-wireframe.png)
-![Gallery page](/assets/images/ReadMe-Images/gallery-wireframe.png)
-![Sign Up page](/assets/images/ReadMe-Images/sign-up-wireframe.png)
-
-    * Mobile Wireframe - [View](https://github.com/kev-n14/pp1-miracle-of-the-sun/blob/main/assets/Phone.bmpr)
-    ![Phone wireframe](/assets/images/ReadMe-Images/phone-wireframe.png)
 
 ## Credits
 ---
@@ -187,19 +184,3 @@ You can break the credits section up into Content and Media, depending on what y
 
     * The images used for the Gallery page was taken from [unsplash](https://unsplash.com/) and [wikipedia](https://en.wikipedia.org/wiki/Miracle_of_the_Sun).
     * The video explaining the event was embedded and sourced from [Youtube](https://www.youtube.com/embed/L4IbOzuNlmE).
-
-## Other General Project Advice
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
-One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through this article by Chris Beams on How to Write a Git Commit Message
-
-Make sure to keep the messages in the imperative mood
-When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-
-For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
-Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-
-Writing Your Best Code
-HTML & CSS Coding Best Practices
-Google HTML/CSS Style Guide
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
