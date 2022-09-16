@@ -84,7 +84,7 @@ In the future we hope to add:
 
         2. As a Frequent User, I want to check to see if any new information as been added.
 
-        3. As a Frequent User, I want to sign up to the Rosary Group so that kept up to date about events taken place within the group.
+        3. As a Frequent User, I want to view and download the Gallery page images.
 
 * ### **Design**
     * **Colour Scheme**
@@ -133,7 +133,7 @@ In the future we hope to add:
 ---
 
 ## Validator Testing
---
+
 The W3C Markup Validator and W3C jigsaw CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 * **HTML**
 No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkev-n14.github.io%2Fpp1-miracle-of-the-sun%2Findex.html)
@@ -142,64 +142,80 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ### Testing User Stories from User Experience (UX) Section
 #### **First Time Visitor Goals**
-* As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+1. As a First Time Vistor, I want to be able to understand the main purpose for this site. I should be to determine the aim of the site effortlessly and in a short period of time.
 
     * Upon visting the site, users are greeted with a clean, spacious and easily to read navigation bar to go to the page they would like to vist.
     * The main points of the webpage are made immediately with the section below the hero image.
-* As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-    * The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-    * At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-    * On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-* As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+1. As a First Time Vistor, I believe naviagtion from one page to another should by seamless and efficient. I want a site that I don't have to scroll alot to find my way around the webpage.
 
-    * Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-    * The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-    * At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    * The site has been designed to have structured flow and an effortless feel for the user. At the top of each page there is a clean navigation bar, This navagation bar is identical on all pages throughout the site. each link's name describes the pages purpose.
 
+    * As the user scrolls down the page the navgation bar will follow the user. allowing the user to have navgation over the site at anytime. 
+    * At the bottom of the page is social links connecting, to keep the user always connected and engaged.
+
+1. As a First Time Vistor, I want many different types of media content such as text, imagery and video etc.
+
+    * Throughout the entire website the user can make use of many different types of media content.
+    * On the home page the user greeted with a large image and below this is a section of text media and as the user scrolls down they have access to video media.This will keep the user engaged with the webpage
+    * Surrounding all these media contents there is breathing space for the content which makes of a effortless and clean experience.
+    
 #### **Returning Visitor Goals**
-* As a Returning Visitor, I want to find the new programming challenges or hackathons.
+1. As a Returning Visitor, I want to learn more about the organization behind the webpage.
+    * At the end of the footer there are social links which will keep the user educate the user about the organization and keep them up to date.
+    
 
-    * These are clearly shown in the banner message.
-    * They will be directed to a page with another hero image and call to action.
-* As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+1. As a Returning Visitor, I would like to be able to get in contact with the organizeration to find out about future projects they may have.
 
-    * The navigation bar clearly highlights the "Contact Us" Page.
-    * Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-    * The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-    * Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-    * The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-* As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
+    * The sign up page is key for keep the user connected to the site.
+    * At the sign up page, they can fill out the form on the page or are they can get in touch via the social media links at the bottom of the webpage.
+    * The footer contains links to the organisations Facebook, Twitter, Instagram, YouTube and LinkedIn page.
+    * Whichever link they click, it will open up in a new tab to ensure the user can easily get back to the website.
 
-    * The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-    * Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-    * If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+
+1. As a Returning Visitor, I want more downloadable content for me to share.
+    * In the near future downloadable pdf files will be available for users to download and share.
+    * These links will be found in the home page.
 
 #### **Frequent User Goals**
-* As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+1. As a Frequent User, I want to be able to keep in touch with members who have joined the sign up page.
 
-    * The user would already be comfortable with the website layout and can easily click the banner message.
-* As a Frequent User, I want to check to see if there are any new blog posts.
+    * The user would already be familiar with the website, they will be able to keep in contact with members of the webpage by signing up to the sign up page and staying in connect by email or via social media links such as Facebook, Instagram, Twitter.
 
-    * The user would already be comfortable with the website layout and can easily click the blog link
-* As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+1. As a Frequent User, I want to check to see if any new information as been added.
 
-    * At the bottom of every page their is a footer which content is consistent throughout all pages.
-    * To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-    * There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    * The user would already be comfortable with the website design nad layout and can easily click the social media links at the bottom of all pages throughout the website.
+
+1. As a Frequent User, I want to view and download the Gallery page images.
+
+    * The user will have experience navgating the website and will be able to view the images in the Gallery page.
+    * As all the images are sourced from from freely sourced websites all images can be downloaded used by the user with no permission needed.
+
 #### **Further Testing**
 * The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 * The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 * A large amount of testing was done to ensure that all pages were linking correctly.
 * Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 #### **Known Bugs**
-* On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    * A white gap can be seen to the right of the footer and navigation bar as a result.
-* On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+* On some mobile devices the Hero Image does not fill the screen.
+    * A white gap can be seen to the right of the hero image and the footer.
+*  On some mobile devices the video does not shrink.
+    * Which causes white gaps on the resty of the elements of the webpage.
+* the navigation bar menu elements on some screen sizes. all three webpage links do not fit.
+    * This causes the sign up page link to go below the Home and Gallery page links.
 
-### Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
+### **Unfixed Bugs**
+* The navigation bar menu elements on some screen sizes. all three webpage links do not fit.
+    * This causes the sign up page link to go below the Home and Gallery page links.
+## Performance
+---
+### **Lighthouse Test**
+* Home Page
+![Home Page](/assets/images/ReadMe-Images/Home-lighthouse-test.png)
+* Gallery Page
+![Gallery Page]()
+* Sign Up Page 
+![Sign Up Page ](/assets/images/ReadMe-Images/sign-up-lighthouse-test.png)
 ## Deployment
 ---
 
@@ -218,7 +234,7 @@ In this section you need to reference where you got your content, media and extr
 
 You can break the credits section up into Content and Media, depending on what you have included in your project.
 
-* ### Content
+* ### **Content**
     * The main-content section text for the Home page was in part taken from 
         * ewtn-[Sixth Appartion of Our Lady](https://www.ewtn.com/catholicism/devotions/sixth-apparition-of-our-lady-23368), 
         * The World Apostolate of Fatima England and Wales-[The Miracle of the sun at Fatima](https://worldfatima-englandwales.org.uk/the-miracle-of-the-sun-at-fatima/),
@@ -228,10 +244,11 @@ You can break the credits section up into Content and Media, depending on what y
 
     * Instructions on how to implement form validation on the Sign Up page was taken from Specific [w3schools](https://www.w3schools.com/) Tutorials.
 
-* ### Media
+* ### **Media**
     * the favicon was from [favicon](https://www.flaticon.com/free-icons/catholic/2).
     * The icon in the navigation bar was created by developer using Adobe Express.
     * The photos used on the Home and sign up pages of the site were taken from [unsplash](https://unsplash.com/).
 
     * The images used for the Gallery page was taken from [unsplash](https://unsplash.com/) and [wikipedia](https://en.wikipedia.org/wiki/Miracle_of_the_Sun).
-    * The video explaining the event was embedded and sourced from [Youtube](https://www.youtube.com/embed/L4IbOzuNlmE).
+    * The video explaining the event was created by 
+Catholic 365 and was embedded and sourced from [Youtube](https://www.youtube.com/watch?v=L4IbOzuNlmE&ab_channel=Catholic365).
