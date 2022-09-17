@@ -100,7 +100,6 @@ h3 {
   width: 100vw;
   overflow: hidden;
   position: relative;
-
 }
 
 #banner-image {
@@ -171,7 +170,6 @@ em {
   background-image: url('/assets/images/eye-witness-background.webp');
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .eye-accounts {
@@ -206,7 +204,6 @@ em {
 .clip-text {
   flex: 1;
   padding: 40px;
-
 }
 
 .clip-text h3 {
@@ -385,7 +382,7 @@ html {
 }
 
 .bg {
-  background-image: url("/assets/images/basilica-fatima.webp");
+  background-image: url("../assets/images/basilica-fatima.webp");
   min-height: 170vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -456,6 +453,10 @@ input[type=text]:focus {
     font-size: 1.1em;
   }
 
+  iframe {
+    width: 100%;
+  }
+
   .clip-text h3 {
     font-size: 1.2em;
     line-height: 1em;
@@ -508,7 +509,7 @@ input[type=text]:focus {
   }
 
   .clip-text {
-    magin: 10px;
+    margin: 10px;
     padding-left: 5px;
 
   }
@@ -532,7 +533,11 @@ input[type=text]:focus {
 
   /* Index Page */
   nav a {
-    font-size: 0.8em;
+    font-size: 0.7em;
+  }
+
+  .menu {
+    padding: 10px 15px 20px 5px;
   }
 
   #main-content p {
@@ -570,6 +575,10 @@ input[type=text]:focus {
 @media screen and (max-width: 600px) {
 
   /* Index Page */
+  header {
+    max-height: 100px;
+  }
+
   .logo {
     height: 90px;
   }
@@ -584,10 +593,6 @@ input[type=text]:focus {
   .title {
     padding-top: 32px;
     padding-left: 20px;
-  }
-
-  .menu {
-    padding: 20px 5px 20px 5px;
   }
 
   .menu li {
@@ -622,10 +627,6 @@ input[type=text]:focus {
     margin: auto 0;
   }
 
-  iframe {
-    width: 100%;
-  }
-
   .clip {
     padding: 10px;
     width: 100%;
@@ -642,10 +643,8 @@ input[type=text]:focus {
     max-height: 100px;
   }
 
-
   nav a {
     font-size: 0.7em;
-
   }
 
   .menu {
@@ -655,8 +654,5 @@ input[type=text]:focus {
 
   .banner {
     height: 60vh;
-
-
   }
-
 }
