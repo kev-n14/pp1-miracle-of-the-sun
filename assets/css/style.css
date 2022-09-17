@@ -167,7 +167,7 @@ em {
   text-align: center;
   border: 2px solid white;
   box-sizing: border-box;
-  background-image: url('/assets/images/eye-witness-background.webp');
+  background-image: url('../images/eye-witness-background.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -382,7 +382,7 @@ html {
 }
 
 .bg {
-  background-image: url("../assets/images/basilica-fatima.webp");
+  background-image: url("../images/basilica-fatima.webp");
   min-height: 170vh;
   background-position: center;
   background-repeat: no-repeat;
