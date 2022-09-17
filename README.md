@@ -1,6 +1,6 @@
 # pp1-miracle-of-the-sun
 
-![Display on differnt screens](/assets/images/ReadMe-Images/Display.jpg)
+![Display on differnt screens](/assets/images/ReadMe-Images/Screen-display.png)
 
 # Fatima - The Miracle of The Sun
 
