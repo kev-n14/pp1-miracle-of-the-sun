@@ -44,7 +44,7 @@ The video will be playable from a browser.
 The footer section includes a short text about the Fatima Group and links to the relevant social media sites for Fatima. The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to keep connected via social media. Below the social media links will also be navigation links to the Home, Gallery, and Sign up pages.
 ### **Gallery**
-![Gallery Page](/assets/images/ReadMe-Images/Gallery-Page.png)
+![Gallery Page](/assets/images/ReadMe-Images/Gallery-page.html.png)
 The gallery will provide the user with images from Fatima. This will make learning about the event easier for the user.
 As the user hovers over the image it will increase in size. To give feedback to the user.
 This section is a valuable source for education.
@@ -211,7 +211,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 * Home Page
 ![Home Page](/assets/images/ReadMe-Images/Home-page.png)
 * Gallery Page
-![Gallery Page]()
+![Gallery Page](/assets/images/ReadMe-Images/Gallery-page-lighthouse.png)
 * Sign Up Page 
 ![Sign Up Page ](/assets/images/ReadMe-Images/sign-up-lighthouse-test.png)
 ## Deployment
