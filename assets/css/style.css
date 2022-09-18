@@ -141,14 +141,14 @@ em {
   font-weight: bold;
 }
 
-/*Eye Witness section*/
+/*Eyewitness section*/
 #eye-heading h2 {
   text-align: center;
   padding: 20px;
   position: relative;
 }
 
-#eye-witness {
+#eye-witness-section {
   background-position: center;
   height: auto;
   width: 90%;
@@ -240,7 +240,6 @@ footer {
   font-weight: 500;
   line-height: 3rem;
   color: #fff;
-
 }
 
 .footer-content p {
@@ -511,7 +510,6 @@ input[type=text]:focus {
   .clip-text {
     margin: 10px;
     padding-left: 5px;
-
   }
 
   /* Gallery page*/
@@ -544,7 +542,7 @@ input[type=text]:focus {
     padding: 20px 20px;
   }
 
-  #eye-witness {
+  #eye-witness-section {
     flex-direction: column;
   }
 
